@@ -94,7 +94,7 @@
               
               <NuxtLink to="/dashboard/appointments/new" class="flex items-center p-3 bg-secondary-50 hover:bg-secondary-100 rounded-lg transition-colors group">
                 <div class="w-10 h-10 bg-secondary-100 group-hover:bg-secondary-200 rounded-lg flex items-center justify-center">
-                  <CalendarPlusIcon class="h-5 w-5 text-secondary-600" />
+                  <PlusCircleIcon class="h-5 w-5 text-secondary-600" />
                 </div>
                 <div class="ml-3">
                   <p class="font-medium text-gray-900">Book Appointment</p>
@@ -140,7 +140,7 @@ import {
   CalendarIcon,
   ClockIcon,
   UserGroupIcon,
-  CalendarPlusIcon,
+  PlusCircleIcon,
   CogIcon,
   HeartIcon,
   StarIcon,
@@ -231,7 +231,7 @@ const recentActivity = ref([
     id: 2,
     text: 'Booked appointment with Dr. Emily Rodriguez',
     time: '1 day ago',
-    icon: CalendarPlusIcon,
+    icon: PlusCircleIcon,
     bgColor: 'bg-blue-100',
     iconColor: 'text-blue-600'
   },
